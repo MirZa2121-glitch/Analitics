@@ -1,0 +1,83 @@
+@import url("./fonts.css");
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2B2B2B;
+}
+
+.sponsore-1 {
+    padding: 100px;
+    background-image: url(../asset/img/logo/accenture.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sponsore-2 {
+    padding: 80px;
+    background-image: url(../asset/img/logo/circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sponsore-3 {
+    padding: 100px;
+    background-image: url(../asset/img/logo/microsoft.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sponsore-4 {
+    padding: 80px;
+    background-image: url(../asset/img/logo/Google.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sponsore-5 {
+    padding: 100px;
+    background-image: url(../asset/img/logo/BearingPoint.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.imagine-1 {
+    padding: 250px;
+    background-image: url(../asset/img/background/Screenshot.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagine-2 {
+    padding: 290px;
+    background-image: url(../asset/img/details/GIF.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Responsive adjustments: reduce large paddings and make backgrounds fit smaller screens */
+@media (max-width: 1024px) {
+    .imagine-1 { padding: 160px; }
+    .imagine-2 { padding: 180px; }
+    .sponsore-1, .sponsore-3, .sponsore-5 { padding: 60px; }
+    .sponsore-2, .sponsore-4 { padding: 50px; }
+}
+
+@media (max-width: 640px) {
+    .imagine-1 { padding: 80px; background-position: center; }
+    .imagine-2 { padding: 100px; }
+    .sponsore-1, .sponsore-3, .sponsore-5 { padding: 40px; }
+    .sponsore-2, .sponsore-4 { padding: 36px; }
+}
