@@ -67,10 +67,19 @@ body {
     background-size: contain;
 }
 
+.imagine-3 {
+    padding: 250px;
+    background-image: url(../asset/img/details/analitic-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 /* Responsive adjustments: reduce large paddings and make backgrounds fit smaller screens */
 @media (max-width: 1024px) {
     .imagine-1 { padding: 160px; }
     .imagine-2 { padding: 180px; }
+    .imagine-3 { padding: 160px; }
     .sponsore-1, .sponsore-3, .sponsore-5 { padding: 60px; }
     .sponsore-2, .sponsore-4 { padding: 50px; }
 }
@@ -78,6 +87,7 @@ body {
 @media (max-width: 640px) {
     .imagine-1 { padding: 80px; background-position: center; }
     .imagine-2 { padding: 100px; }
+    .imagine-3 { padding: 80px; background-position: center; }
     .sponsore-1, .sponsore-3, .sponsore-5 { padding: 40px; }
     .sponsore-2, .sponsore-4 { padding: 36px; }
 }

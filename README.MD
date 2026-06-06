@@ -20,3 +20,12 @@ Used library:
 Have adapative: ✅
 
 // End.
+
+# New update v1.2 date 06.06.2026 21:14. Added:
+
+- New page in click 'Get strted' for two page
+- Bux fix
+- AI button (Don't work)
+- Plugs
+
+--!--

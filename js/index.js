@@ -1,7 +1,10 @@
 import { IMG } from './components/dataIMG.js';
 
 const $card = document.getElementById('card');
+const $card2 = document.getElementById('card2');
 const $sliders = document.getElementById('sliders')
+
+import { support } from './components/texhSupport.js';
 
 function generateCard() {
     const items = [
@@ -116,3 +119,31 @@ const generateRewiew = function() {
 }
 
 generateRewiew()
+
+function generateCard2() {
+    const items = [
+        { name: 'Customizable card', desc: 'Custom your own card for your exact incomes and expenses needs.', img: IMG[0] || '' },
+        { name: 'No payment fee', desc: 'Transfer your payment all over the world with no payment fee.', img: IMG[1] || '' },
+        { name: 'All in one place', desc: 'The right place to keep your credit and debit cards, boarding passes & more.', img: IMG[2] || '' },
+    ];
+
+    if (!$card2) return;
+
+    $card2.innerHTML = items2.map(item2 => `
+        <div class="justify-between items-center py-10 lg:p-0">
+            <div class="">
+                <img src="${item2.img}" alt="${item2.name}" class="mx-auto"/>
+                <div class='w-[250px] text-center'>
+                    <h4 class="font-semibold text-[18px] text-white py-2">${item2.name}</h4>
+                    <p class="text-sm text-[#b8b8b8ae] text-[18px]">${item2.desc}</p>
+                </div>
+            </div>
+        </div>
+    `).join('');
+}
+
+const startLocalFiles = function() {
+    support();
+}
+
+startLocalFiles()
