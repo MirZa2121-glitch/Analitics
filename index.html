@@ -21,16 +21,26 @@
                         <a href="#" class="text-[24px] font-bold text-white">Wallet</a>
                     </div>
                     <nav class="items-center hidden lg:flex gap-7 md:block">
-                        <a href="#" class="font-light text-white duration-50 hover:border-b-2 hover:pb-1 hover:border-white">Sign up</a>
-                        <a href="#" class="w-[175px] h-[50px] flex items-center justify-center bg-[#BFAFF2] rounded-2xl hover:bg-transparent hover:border-2 hover:text-white hover:scale-110 duration-150">Log in</a>
+                        <a href="#" data-lang-key="sigin1" class="font-light text-white duration-50 hover:border-b-2 hover:pb-1 hover:border-white">Sign up</a>
+                        <a href="#" data-lang-key="login1" class="w-[175px] h-[50px] flex items-center justify-center bg-[#BFAFF2] rounded-2xl hover:bg-transparent hover:border-2 hover:text-white hover:scale-110 duration-150">Log in</a>
                         <!-- AI Suppor (dev) -->
                         <button class="block duration-150 cursor-pointer hover:scale-120" id="texhSupport">
                             <img src="./asset/img/icon/AI-icon-white.svg" alt="AI" />
                         </button>
+                    <div class="flex items-center gap-5">
+                        <button data-btn-lang="ru" class="cursor-pointer text-white text-[18px] font-bold active">RU</button>
+                        <div class="w-1 h-5 bg-white"></div>
+                        <button data-btn-lang="en" class="cursor-pointer text-white text-[18px] font-bold">EN</button>
+                    </div>
                     </nav>
                     <button class="block duration-150 cursor-pointer lg:hidden hover:scale-120" id="texhSupport">
                             <img src="./asset/img/icon/AI-icon-white.svg" alt="AI" />
                     </button>
+                    <div class="flex items-center gap-5 lg:hidden">
+                        <button data-btn-lang="ru" class="cursor-pointer text-white text-[16px] font-bold">RU</button>
+                        <div class="w-1 h-5 bg-white"></div>
+                        <button data-btn-lang="en" class="cursor-pointer text-white text-[16px] font-bold">EN</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -46,9 +56,9 @@
             <div class="w-full px-4 mx-auto lg:max-w-7xl">
                 <div class="flex flex-col items-center gap-6 md:flex-row md:justify-between py-50 md:gap-0 md:items-start">
                     <div class="w-full text-center md:w-130 lg:text-start md:text-start">
-                        <h1 class="text-[40px] lg:text-[60px] md:text-[60px] font-semibold text-white">SaaS Landing Page Template</h1>
-                        <p class="text-[18px] text-[#b8b8b8ae] py-10 leading-10">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
-                        <a href="./index2.html" class="w-[175px] h-[50px] flex items-center justify-center mx-auto lg:mx-0 my-[30px] bg-[#F8D57E] text-[#333333] rounded-2xl hover:bg-transparent hover:border-2 hover:text-white hover:scale-110 duration-150">Get started</a>
+                        <h1 data-lang-key="title1" class="text-[40px] lg:text-[60px] md:text-[60px] font-semibold text-white">SaaS Landing Page Template</h1>
+                        <p data-lang-key="description1" class="text-[18px] text-[#b8b8b8ae] py-10 leading-10">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+                        <a data-lang-key="btn1" href="./index2.html" class="w-[175px] h-[50px] flex items-center justify-center mx-auto lg:mx-0 my-[30px] bg-[#F8D57E] text-[#333333] rounded-2xl hover:bg-transparent hover:border-2 hover:text-white hover:scale-110 duration-150">Get started</a>
                     </div>
                     <div class="w-full md:w-[500px] h-auto md:h-[446px] bg-[#454545ae] rounded-2xl">
                         <img class="object-cover w-full h-auto rounded-2xl" src="./asset/img/details/analitic-1.png" alt="Analitics"/>
@@ -112,9 +122,9 @@
                 <div>
                     <div class="items-center justify-between py-10 lg:flex lg:p-0 lg:m-0">
                         <div class="mx-auto text-center w-60 lg:mx-0 lg:text-start md:w-100">
-                            <h2 class="text-[40px] md:text-[60px] lg:text-[60px] font-semibold text-white">Questions? Let's talk </h2>
-                            <p class="lg:text-[18px] text-[#b8b8b8ae] py-10 leading-10">Contact us through our 24/7 live chat.We're always happy to help!</p>
-                            <a href="#" class="w-[175px] h-[50px] flex items-center justify-center my-[30px] bg-[#F8D57E] text-[#333333] rounded-2xl hover:bg-transparent hover:border-2 hover:text-white hover:scale-110 mx-auto lg:mx-0 duration-150">Get started</a>
+                            <h2 data-lang-key="title3" class="text-[40px] md:text-[60px] lg:text-[60px] font-semibold text-white">Questions? Let's talk </h2>
+                            <p data-lang-key="description3" class="lg:text-[18px] text-[#b8b8b8ae] py-10 leading-10">Contact us through our 24/7 live chat.We're always happy to help!</p>
+                            <a data-lang-key="btn3" href="./index2.html" class="w-[175px] h-[50px] flex items-center justify-center my-[30px] bg-[#F8D57E] text-[#333333] rounded-2xl hover:bg-transparent hover:border-2 hover:text-white hover:scale-110 mx-auto lg:mx-0 duration-150">Get started</a>
                         </div>
                         <div class="w-full md:w-auto imagine-2"></div>
                     </div>
@@ -136,16 +146,16 @@
                             <p class="text-[24px] font-bold text-white">Wallet</p>
                             <ul class="pt-10 ap-10 gap-7 lg:flex">
                                 <li>
-                                    <a class="text-white" href="#">© Wallet 2022</a>
+                                    <a data-lang-key="link1" class="text-white" href="#">© Wallet 2022</a>
                                 </li>
                                 <li>
-                                    <a class="text-white" href="#">Privacy policy</a>
+                                    <a data-lang-key="link2" class="text-white" href="#">Privacy policy</a>
                                 </li>
                                 <li>
-                                    <a class="text-white" href="#">Cookies policy</a>
+                                    <a data-lang-key="link3" class="text-white" href="#">Cookies policy</a>
                                 </li>
                                 <li>
-                                    <a class="text-white" href="#">Terms of use</a>
+                                    <a data-lang-key="link4" class="text-white" href="#">Terms of use</a>
                                 </li>
                             </ul>
                         </nav>
